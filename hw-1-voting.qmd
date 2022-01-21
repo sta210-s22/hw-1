@@ -1,0 +1,87 @@
+---
+title: "HW 1 - In-person voting trends"
+subtitle: "STA 210 - Spring 2022"
+author: "Add your name here"
+date: "Add the date here"
+format: pdf
+editor: visual
+---
+
+# Setup
+
+Load packages and data:
+
+```{r load-pkg-data}
+#| message: false
+
+# load packages
+library(tidyverse)
+library(tidymodels)
+library(knitr)
+library(scales)
+
+# load data
+election_nc <- read_csv("data/nc-election-2020.csv") %>%
+  mutate(fips = as.integer(FIPS))
+county_map_data <- read_csv("data/nc-county-map-data.csv")
+election_sample <- read_csv("data/us-election-2020-sample.csv")
+```
+
+# Exercises
+
+## Part 1: Counties in North Carolina
+
+### Exercise 1
+
+```{r label-me}
+
+# add code here...
+```
+
+Add answer here...
+
+### Exercise 2
+
+...
+
+### Exercise 3
+
+...
+
+### Exercise 4
+
+...
+
+### Exercise 5
+
+...
+
+### Exercise 6
+
+...
+
+### Exercise 7
+
+...
+
+### Exercise 8
+
+...
+
+## Part 2: Inference for the U.S.
+
+### Exercise 9
+
+...
+
+### Exercise 10
+
+...
+
+### Exercise 11
+
+...
+
+### Exercise 12
+
+...
